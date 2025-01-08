@@ -1,4 +1,4 @@
-# Cybersecurity Tool
+# CTF-Recon-Framework
 
 A Python-based multi-function cybersecurity tool to perform recon on CTF machines.
 
@@ -16,7 +16,7 @@ A Python-based multi-function cybersecurity tool to perform recon on CTF machine
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/yourusername/cybersecurity-tool.git
-cd cybersecurity-tool
+cd "CTF-Recon-Framework"
 ```
 
 2. **Install the required dependencies:**
