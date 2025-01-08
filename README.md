@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 3. **Install additional tools:**
-	1. **Nikto: Install Nikto for vulnerability scanning.
+	1. **Nikto** : Install Nikto for vulnerability scanning.
 	2. **Nmap** : Install Nmap for port scanning.
 4. **Run the tool:**
 ```bash
