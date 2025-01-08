@@ -8,7 +8,7 @@ A Python-based multi-function cybersecurity tool to perform recon on CTF machine
 - **Subdomain Enumeration**: Discover subdomains using OSINT or bruteforce.
 - **Web Crawling**: Crawl a website to collect links and extract useful data.
 - **Vulnerability Scanning**: Scan for vulnerabilities using Nikto.
-- **Scan Schedulers**: Schedule recurring scans (daily, weekly, monthly).
+- **Schedulers**: Schedule recurring scans (daily, weekly, monthly).
 - **Statistics Visualization**: Generate and display intuitive data visualizations (bar charts, pie charts).
 
 ## Installation
@@ -39,7 +39,7 @@ python3 main.py
 2. **Perform Scans**:
     - Use the `Port Scanning`, `Subdomain Enumeration`, `Web Crawling`, and `Vulnerability Scanning` options to perform scans.
 3. **Schedule Scans**:
-    - Use the `Scan Schedulers` option to schedule recurring scans.    
+    - Use the `Schedulers` option to schedule recurring scans.    
 4. **Visualize Statistics**:
     - Use the `Visualize Statistics` option to generate and view data visualizations.
 
@@ -66,12 +66,16 @@ CTF-Recon-Framework/
     vulnerability_scanning/
       __init__.py
       vulnerability_scanner.py
+    Scheduler
+      __init__.py
+      scheduler.py
     stats_visualization/
       __init__.py
       stats_visualization.py
   data/
     projects/
       project1/
+        scheduled_tasks.txt
         subdomain_enumeration/
         web_crawling/
         port_scanning/
