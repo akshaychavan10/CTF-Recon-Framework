@@ -1,0 +1,11 @@
+# Python Libraries
+requests==2.31.0
+beautifulsoup4==4.12.2
+python-nmap==0.7.1
+apscheduler==3.10.1
+matplotlib==3.7.2
+xmltodict==0.13.0
+
+# External Tools (Install Manually)
+# Nikto: sudo apt-get install nikto
+# Nmap: sudo apt-get install nmap
